@@ -1,0 +1,42 @@
+.pay3 {
+  padding: 80px 0px;
+}
+.pay3 .pay3out .top {
+  margin-bottom: 67px;
+}
+.pay3 .pay3out .center {
+  margin-top: 50px;
+  border-top: 1px solid #dbdbe0;
+  border-bottom: 1px solid #dbdbe0;
+  background-color: #f7fafa;
+  padding: 65px 0px;
+  padding-left: 90px;
+  padding-right: 200px;
+}
+.pay3 .pay3out .center .center-txt1 {
+  color: #150b09;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pay3 .pay3out .center .center-txt2 {
+  color: #150b09;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+.pay3 .pay3out .center .center-txt3 .txt3-qita {
+  display: inline-block;
+  background-color: #58c7e7;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 15px;
+  margin-right: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pay3 .pay3out .center .center-txt3 .txt3-yi {
+  color: #828587;
+  font-size: 12px;
+  cursor: pointer;
+}

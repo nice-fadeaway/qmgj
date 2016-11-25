@@ -1,0 +1,133 @@
+<div class="container banner">
+
+    <div class="row" ng-repeat="obj in orderArr">
+        <div ng-show="showindex == $index" class="col-sm-12 banner-img">
+        <img ng-src="{{obj.img}}" ui-sref="objdetail.objRecom({id:obj.id})" alt="">    
+            <div class="banner-text">
+                <p class="bntext1">{{obj.name}}</p>
+                <p class="bntext2">{{obj.text}}</p>
+                <p class="bntext3"><a  ui-sref="objdetail.objRecom({id:obj.id})">{{obj.show}}</a></p>
+            </div>
+            <div class="slidePoint">
+                <span ng-repeat="cru in orderArr" ng-class="{active:showindex == $index}" ng-click="showCurrentFn($index)"></span>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="container-fluid cont">
+    <div class="row contine" ng-repeat="two in cent |filter:myFilterModel">
+        <div class="col-sm-10 content-left">
+            <!-- 使用col-sm-4与col-sm-offset-4可以实现一列内容的偏移 -->
+            <!-- 当一行沾满时会自动换行 -->
+            <div class="cltop">
+                <span class="col-sm-2 hotobj">热门项目</span>
+                <a href="#" title="" class="col-sm-offset-8" ui-sref="detail">查看更多</a>
+            </div> 
+
+    
+
+            <img  ui-sref="objdetail.objRecom({id:two.id})" class="col-sm-4 topimg" ng-src="{{two.imgleft}}" alt="">
+            <div class="col-sm-6 col-sm-offset-0.5 cltext">
+                <p>
+                    <span class="cltext1">{{two.name}}</span>
+                    <br>
+                    <span class="textpublic">&nbsp;&nbsp;{{two.liayuan}}</span>
+                </p>
+                <p class="textpublic">
+                    &nbsp;{{two.txt}}
+                </p>
+                <p class="textpublicone">
+                    <img ng-src="{{two.imgmin}}" alt="">
+                    <span class="clmargin">{{two.leix}}</span>
+                    <img class="clver" src="../images/weishi.png" alt="">
+                    <span>卫视</span>
+                </p>
+                <!-- 进度条 -->
+                <div class="progressone">
+                <div class="prochild" style="width:{{two.pro}}"></div>
+                </div>
+                <!-- 统计数据 -->
+                <p class="clsq">
+                    <span>{{two.pro}}</span>
+                    <span>{{two.money}}</span>
+                    <span>173</span>
+                    <span>{{two.time}}</span>
+                </p>
+                <p class="clbot">
+                    <span>进度</span>
+                    <span>支付金额</span>
+                    <span>支持者</span>
+                    <span>剩余天数</span>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-2 content-right">
+            <ul>
+            <li ng-repeat="tit in titlist" ng-click="checkContent($index)" ng-class="{active:titindex == $index}">{{tit.title}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container btn">
+    <div class="row btntine">
+
+            <div class="btn-top col-sm-12">
+                <span class="col-sm-1">
+          		卫视主推
+          	</span>
+                <a href="#" class="col-sm-offset-7" ui-sref="detail">
+          		查看全部
+          	</a>
+            </div>
+
+
+           <div class="col-sm-3 detalistier text-left" ng-repeat="one in btn" ui-sref="objdetail.objRecom({id:one.id})">
+            <img class="topimg" ng-src="{{one.img}}" alt="">
+            <p>
+                <span class="btntop">{{one.name}}</span>
+                <br>
+                <span class="btntop2">{{one.liayuan}}</span>
+            </p>
+            <p class="btntext1">
+                {{one.txt}}
+            </p>
+            <p>
+                <img src="../images/biaoqian.png" alt="">
+                <span class="btntop3">{{one.name2}}</span>
+            </p>
+            <div class="progresstwo">
+                <p class="prochild" style="width:{{one.pro}}"></p>
+            </div>
+            <p class="btntext2">
+                <span>{{one.pro}}</span>
+                <span>{{one.money}}</span>
+                <span>{{one.time}}</span>
+            </p>
+            <p class="btntext3">
+                <span>进度</span>
+                <span>支持金额</span>
+                <span>剩余天数</span>
+            </p>
+        </div>
+
+    
+    </div>
+</div>
+
+
+<div class="container fot">
+    <div class="row fot-contout">
+        <div class="col-sm-12 fot-content">
+        <p class="col-sm-12">合作单位</p>
+        <!-- <div class="col-sm-12">   	 -->
+        	<a href="#"><img class="col-sm-2.4" src="../images/bottomimg1.png" alt=""></a>
+        	<a href="#"><img class="col-sm-2.4" src="../images/bottomimg2.png" alt=""></a>
+        	<a href="#"><img class="col-sm-2.4" src="../images/bottomimg3.png" alt=""></a>
+        	<a href="#"><img class="col-sm-2.4" src="../images/bottomimg4.png" alt=""></a>
+        	<a href="#"><img class="col-sm-2.4" src="../images/bottomimg5.png" alt=""></a>  
+        </div>
+        <!-- </div> -->
+    </div>
+</div>

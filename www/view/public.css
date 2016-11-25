@@ -1,0 +1,39 @@
+* {
+  font-family: "微软雅黑";
+}
+.clear:after {
+  height: 0px;
+  clear: both;
+  display: block;
+  content: "";
+  overflow: hidden;
+}
+.clear {
+  -zoom: 1;
+}
+.tanchu {
+  padding-top: 16%;
+}
+.tanchu .tcout .tcinr {
+  height: 60px;
+  line-height: 60px;
+  width: 200px;
+  text-align: center;
+  color: #ff4200;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* 圈子交流部分 */
+.ring p {
+  color: red;
+  font-size: 16px;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+}
+.exchang {
+  color: red;
+  font-size: 16px;
+  margin: 0px auto;
+  text-align: center;
+}

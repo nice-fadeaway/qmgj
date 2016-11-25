@@ -1,0 +1,171 @@
+.safefit .safe {
+  background-color: #fff;
+  padding: 60px;
+  padding-right: 0px;
+}
+.safefit .safe .top {
+  border-bottom: 1px solid #d9d9de;
+  margin-bottom: 35px;
+}
+.safefit .safe .top a {
+  color: #150b09;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 32px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.safefit .safe .top .active {
+  border-bottom: 4px solid #43aefc;
+  padding-bottom: 15px;
+}
+.safefit .safe .margin {
+  margin: 12px 0px;
+}
+.safefit .safe .txt1 {
+  color: #150b09;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.safefit .safe .input1 {
+  outline: none;
+  border: none;
+  border: 1px solid #dbdbe0;
+  border-radius: 4px;
+}
+.safefit .safe .txt2 {
+  color: #150b09;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.safefit .safe .txt3 {
+  color: #838383;
+  font-size: 12px;
+}
+.safefit .safe .txt4 {
+  margin-left: -14px;
+  margin-right: 12px;
+  color: #150b09;
+  font-size: 12px;
+}
+.safefit .safe .txt5 {
+  color: #150b09;
+  font-weight: bold;
+  font-size: 12px;
+}
+.safefit .safe .txt6 {
+  color: #150b09;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.safefit .safe .input2 {
+  border: none;
+  outline: none;
+  border: 1px solid #dbdbe0;
+  border-radius: 4px;
+  width: 77px;
+  padding-left: 3px;
+}
+.safefit .safe .button {
+  background-color: #f2f2f2;
+  outline: none;
+  border: none;
+  border: 1px solid #dbdbe0;
+  border-radius: 4px;
+  padding: 4px 5px;
+}
+.safefit .safe .big {
+  margin-left: 60px;
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.safefit .safe .big .show {
+  color: red;
+  float: left;
+  font-weight: bold;
+}
+.safefit .safe .big .fff {
+  color: #fff;
+  float: left;
+}
+.safefit .safe .btn-a {
+  padding: 15px;
+  width: 20%;
+  background-color: #ff4200;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  text-align: center;
+}
+.safefit .safe .sname-big {
+  margin-left: 30px;
+}
+.safefit .safe .sname-big .sname-txt1 {
+  margin-left: 10%;
+  color: #43aefc;
+  font-size: 12px;
+}
+.safefit .safe .sname-big .margin2 {
+  margin: 12px 0px;
+}
+.safefit .safe .sname-big .sname-txt2 span {
+  font-size: 12px;
+  color: #150b09;
+  margin-right: 20px;
+}
+.safefit .safe .sname-big .sname-txt2 input {
+  outline: none;
+  border: none;
+  border: 1px solid #dcdce0;
+  border-radius: 4px;
+  padding-left: 5px;
+  width: 25%;
+}
+.safefit .safe .sname-big .sname-txt3 span {
+  color: #150b09;
+  font-size: 12px;
+  margin-left: -23px;
+  margin-right: 18px;
+  display: inline-block;
+}
+.safefit .safe .sname-big .sname-txt3 .sname-input {
+  outline: none;
+  border: none;
+  border: 1px solid #dcdce0;
+  border-radius: 4px;
+  padding-left: 5px;
+  width: 25%;
+}
+.safefit .safe .sname-big .sname-show {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.safefit .safe .sname-big .sname-show .patter {
+  font-size: 11px;
+  color: #ff0101;
+}
+.safefit .safe .sname-big .sname-show .patter .scr {
+  border-radius: 8px;
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  border: 1px solid #ff0000;
+  background-color: #ff0000;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.safefit .safe .sname-big .sname-show .fff2 {
+  float: right;
+  color: #fff;
+}

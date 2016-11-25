@@ -1,0 +1,98 @@
+.record {
+  background-color: #fff;
+  padding: 30px 35px 40px;
+  margin-bottom: 10px;
+}
+.record .record-top {
+  padding-left: 0px;
+}
+.record .record-top a {
+  color: #6a6a6a;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 5%;
+  width: 50px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.record .record-top .active {
+  border-bottom: 4px solid #43aefc;
+  padding-bottom: 8px;
+}
+.record .record-center {
+  height: 42px;
+  line-height: 42px;
+  background-color: #f5f4f3;
+  padding-left: 0px;
+}
+.record .record-center span {
+  font-size: 12px;
+  color: #150b09;
+}
+.record .record-center .rec-txt1 {
+  padding-left: 0px;
+  margin-left: 5%;
+}
+.record .record-center .rec-txt2 {
+  padding-right: 3%;
+}
+.record .record-btn {
+  padding-left: 0px;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 10px;
+}
+.record .record-btn .reb-txt1 {
+  padding-left: 0px;
+}
+.record .record-btn .reb-txt2 {
+  margin-top: 10px;
+}
+.record .record-btn .reb-txt2 .rebt-txt1 {
+  color: #150b09;
+  font-size: 14px;
+  font-weight: bold;
+}
+.record .record-btn .reb-txt2 .rebt-txt2 {
+  color: #828282;
+  font-size: 11px;
+  margin-bottom: 25px;
+}
+.record .record-btn .reb-txt2 .rebt-txt3 {
+  color: #150b09;
+  font-size: 12px;
+}
+.record .record-btn .reb-txt3 {
+  width: 19%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4200;
+  margin-top: 5%;
+}
+.record .record-btn .reb-txt4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff4200;
+  margin-top: 5%;
+  padding-right: 4%;
+}
+.record .record-btn .reb-txt5 {
+  line-height: 1.7;
+  margin-left: 6%;
+  text-align: center;
+  padding-left: 4%;
+  color: #43aefc;
+  font-size: 12px;
+  margin-top: 3%;
+}
+.record .record-btn .reb-txt5 .rebt-txt6 {
+  background: #ff4200;
+  display: inline-block;
+  padding: 6px 3px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+}

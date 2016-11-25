@@ -1,0 +1,46 @@
+<div class="container percent">
+    <div class="row percentier" ng-repeat="user in party">
+        <div class="topbig">
+            <div class="top-left col-sm-2 col-sm-offset-1">
+                <img ng-src="{{user.img}}" alt="">
+            </div>
+            <div class="top-right col-sm-8">
+                <p class="tr-txt1">
+                    <span class="name">用户{{user.name}}</span> &nbsp;
+                    <span class="one">下午好!</span>
+                </p>
+                <p class="tr-txt2 col-sm-12">
+                    <span class="safe col-sm-2">账户安全等级:</span>
+                    <span class="pro col-sm-2 text-left"></span>
+                    <span class="rank col-sm-2">{{user.rank}}</span>
+                </p>
+                <p class="tr-txt3">
+                    <span>上次登录时间:</span>
+                    <span>{{ time.today | date: "yyyy - MM - dd HH:mm:ss"}}</span>
+                </p>
+            </div>
+            <div class="top-btn  col-sm-offset-1 text-center">
+                <img src="../images/personicon.png" alt="">
+                <img src="../images/messageicon.png" alt="">
+                <img src="../images/phoneicon.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="perbtn">
+    <div class="perbtninr clear">
+        <div class="left text-center">
+            <p ui-sref="percent.perhome" ng-click="myFn(0)" ng-class="{active:showIndex == 0}">个人主页</p>
+            <p ui-sref="percent.perinfo" ng-click="myFn(1)" ng-class="{active:showIndex == 1}">个人信息</p>
+            <p ui-sref="percent.safefit.safemark"  ng-click="myFn(2)" ng-class="{active:showIndex == 2}">安全设置</p>
+            <p   ng-click="myFn(3)" ng-class="{active:showIndex == 3}" ui-sref="percent.ring">关注的圈子</p>
+            <p   ng-click="myFn(4)" ng-class="{active:showIndex == 4}" ui-sref="percent.record">购买记录</p>
+     
+    </div>
+        <!-- 右边第一块 -->
+        <div ui-view class="right">
+        </div>
+        <!-- 右边第一块结束 -->
+</div>
+</div>

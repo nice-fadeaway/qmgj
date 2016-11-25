@@ -1,0 +1,204 @@
+{
+
+    "list": [{
+        "name": "《晚秋》再现舞台",
+        "text": "汤唯,玄彬继电影之后,首次在话剧合作,重现西雅图两名男女身在异国他乡的爱情故事。",
+        "show": "查看项目",
+        "img": "../images/banner1.png",
+        "id":"1"
+    }, {
+        "name": "《九层妖塔》震撼来袭",
+        "text": "姚晨,携众星一起去探秘寻宝。",
+        "show": "查看项目",
+        "img": "../images/banner2.jpg",
+        "id":"2"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "text":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式。",
+        "show":"查看项目",
+        "img":"../images/banner3.jpg",
+        "id":"3"
+    }],
+
+
+
+    "text": [{
+        "img": "../images/listimg1.png",
+        "name": "《犹太人在上海》音乐剧",
+        "laiyuan": "by恒源祥喜剧创意",
+        "txt": "中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "name2": "音乐剧",
+        "pro": "88%",
+        "money": "￥12.123",
+        "time": "3",
+        "id":"3"
+    }, {
+        "img": "../images/listimg2.png",
+        "name": "《鬼吹灯》微电影周刊",
+        "laiyuan": "by上海微影视",
+        "txt": "《鬼吹灯》是中国大陆的一部网络小说,作者是天下霸唱,主要讲的为盗墓。",
+        "name2": "微电影",
+        "pro": "48%",
+        "money": "￥13.345",
+        "time": "5",
+        "id":"2"
+    }, {
+        "img": "../images/topimg.png",
+        "name": "《晚秋》音乐剧",
+        "laiyuan": "by上海戏剧学院",
+        "txt": "《晚秋》这部历史奇幻音乐剧,把传统与现代结合，展现出了气势恢宏的场面。",
+        "name2": "音乐剧",
+        "pro": "68%",
+        "money": "￥18.123",
+        "time": "8",
+        "id":"1"
+    }],
+
+
+    "one":[{
+        "name":"《晚秋》再现舞台",
+        "liayuan":"by韩国宝蓝影业有限公司",
+        "txt":"《晚秋》根据李满熙导演1967年的同名小说改编而成,影片一美国西雅图为背景,讲述了一男一女在异国他乡的爱情故事。",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/topimg.png",
+        "leix":"微电影",
+        "pro":"49%",
+        "money":"￥13.890",
+        "time":"4",
+        "status":"0",
+        "id":"1"
+    },{
+        "name":"《九层妖塔》大电影",
+        "liayuan":"by北京小马影视",
+        "txt":"《九层妖塔》根据天下霸唱写的中国一部盗墓题材小说改编而成,讲述了盗墓人的盗墓方式，情节惊险刺激。",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/xingqing2.jpg",
+        "leix":"电影",
+        "pro":"59%",
+        "money":"￥15.890",
+        "time":"7",
+        "status":"1",
+        "id":"2"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"电视剧",
+        "pro":"79%",
+        "money":"￥9.890",
+        "time":"5",
+        "status":"2",
+        "id":"3"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"传统戏剧",
+        "pro":"89%",
+        "money":"￥10.890",
+        "time":"10",
+        "status":"3",
+        "id":"3"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"话剧",
+        "pro":"96%",
+        "money":"￥30.890",
+        "time":"3",
+        "status":"4",
+        "id":"3"
+    },{
+        "name":"《晚秋》再现舞台",
+        "liayuan":"by韩国宝蓝影业有限公司",
+        "txt":"《晚秋》根据李满熙导演1967年的同名小说改编而成,影片一美国西雅图为背景,讲述了一男一女在异国他乡的爱情故事。",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/topimg.png",
+        "leix":"书画",
+        "pro":"39%",
+        "money":"￥40.890",
+        "time":"9",
+        "status":"5",
+        "id":"1"
+    },{
+        "name":"《岳云鹏相声专场》相声",
+        "liayuan":"by北京德云社",
+        "txt":"岳云鹏出身草根,在北京饭店打工,被郭德纲收为徒弟,潜心学习相声,在京城扬名,后登春晚两次,表演风格以便宜为特点,装傻卖萌。",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/yueyunpeng.jpg",
+        "leix":"相声",
+        "pro":"99%",
+        "money":"￥15.890",
+        "time":"7",
+        "status":"6",
+        "id":"4"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"戏剧",
+        "pro":"45%",
+        "money":"￥9.890",
+        "time":"5",
+        "status":"7",
+        "id":"3"
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"音乐剧",
+        "pro":"43%",
+        "money":"￥10.890",
+        "time":"10",
+        "status":"8",
+        "id":"3"        
+    },{
+        "name":"《犹太人在上海》音乐剧",
+        "liayuan":"by上海戏剧学院",
+        "txt":"中国.以色列联合创作的大型音乐剧《犹太人在上海》以音乐剧这一公认的挑战性的艺术形式...",
+        "imgmin":"../images/biaoqian.png",
+        "imgleft":"../images/listimg1.png",
+        "leix":"纪录片",
+        "pro":"18%",
+        "money":"￥30.890",
+        "time":"10",
+        "status":"9",
+        "id":"3"        
+    }],
+
+    "rightlist":[
+        {
+            "title":"微电影"
+        },{
+            "title":"电影"
+        },{
+            "title":"电视剧"
+        },{
+            "title":"传统戏剧"
+        },{
+            "title":"话剧"
+        },{
+            "title":"书画"
+        },{
+            "title":"相声"
+        },{
+            "title":"戏剧"
+        },{
+            "title":"音乐剧"
+        },{
+            "title":"记录片"
+        }]
+
+
+}

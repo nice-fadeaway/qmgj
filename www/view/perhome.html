@@ -1,0 +1,66 @@
+<div class="rightmin col-sm-9">
+    <div class="right1 col-sm-12">
+        <p class="r1-top">
+            <span class="line"></span>&nbsp;
+            <span class="obj">我关注的项目</span>
+        </p>
+
+        <div class="r1-cnt col-sm-5" ng-repeat="ab in home">
+            <img ui-sref="objdetail.objRecom({id:ab.id})" class="col-sm-1" ng-src="{{ab.img}}">
+            <div class="cnt-right col-sm-6 text-left">
+                <p class="cr-txt1">{{ab.name}}</p>
+                <p class="cr-txt2">{{ab.laiyuan}}</p>
+                <div class="pro">
+                    <p class="prochild" style="width:{{ab.pro}}"></p>
+                </div>
+                <p class="cr-txt3">
+                    <span class="txt3-span1">已筹资</span>
+                    <span class="txt3-span2">{{ab.money}}</span>
+                </p>
+            </div>
+        </div>
+
+    </div>   
+</div>
+
+<!-- <div class="right col-sm-9"> -->
+    
+    <div class="right2 col-sm-9">
+        <p class="r2-top">
+            <span class="line"></span>&nbsp;
+            <span class="obj">当前最热</span>
+        </p>
+      <div class="r2-cot col-sm-12">
+
+        <div class="col-sm-3 detalistier" ng-repeat="ac in btn">
+            <img ui-sref="objdetail.objRecom({id:ac.id})" class="topimg" ng-src="{{ac.img}}" alt="">
+            <p>
+                <span class="btntop">{{ac.name}}</span>
+                <br>
+                <span class="btntop2">{{ac.liayuan}}</span>
+            </p>
+            <p class="btntext1">
+               {{ac.txt}}
+            </p>
+            <p>
+                <img src="../images/biaoqian.png" alt="">
+                <span class="btntop3">{{ac.name2}}</span>
+            </p>
+            <div class="progresstwo">
+                <p class="prochild" style="width:{{ac.pro}}"></p>
+            </div>
+            <p class="btntext2">
+                <span>{{ac.pro}}</span>
+                <span>{{ac.money}}</span>
+                <span>{{ac.time}}</span>
+            </p>
+            <p class="btntext3">
+                <span>进度</span>
+                <span>支持金额</span>
+                <span>剩余天数</span>
+            </p>
+        </div>
+      </div>
+    </div>
+<!-- </div> -->
+

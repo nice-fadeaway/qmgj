@@ -1,0 +1,46 @@
+<div class="container pay2">
+    <div class="row pay2out" ng-repeat="ad in pay2">
+        <div class="top">
+            <span class="col-sm-3 text-left toptxt">{{ad.name}}</span>
+            <img src="../images/jindu2.png" class="col-sm-5 col-sm-offset-4 text-right">
+        </div>
+        <div class="top2">
+            <span class="top2-txt col-sm-5">
+        		订单号:{{ad.nmb}}&nbsp;&nbsp;&nbsp;请你在<span class="red">24小时内</span>付清款项,否则订单会自动取消。
+            </span>
+        </div>
+        <div class="top3 col-sm-12">
+            <span ng-click="myFn(0)" ng-class="{active:showIndex==0}">快捷支付
+        	</span>
+            <span ng-click="myFn(1)" ng-class="{active:showIndex==1}">网银支付</span>
+        </div>
+        <div class="top4 col-sm-12">
+            <p class="top4-txt  text-left">
+                请选择银行 :
+            </p>
+        </div>
+        <div class="top5 col-sm-12">
+            <p class="col-sm-3 top5-big">
+                <span ng-class="{active:showIndex2==0}" class="src">
+               
+                </span>
+                <img ng-click="toggle2(0)" src="../images/gonsyh.png" alt="">
+            </p>
+            <p class="col-sm-3 top5-big">
+                <span ng-class="{active:showIndex2==1}"  class="src text-left"></span>
+                <img ng-click="toggle2(1)" class="text-right" src="../images/gonsyh.png" alt="">
+            </p>
+            <p class="col-sm-3 top5-big">
+                <span ng-class="{active:showIndex2==2}" class="src text-left"></span>
+                <img ng-click="toggle2(2)" class="text-right" src="../images/jianshe.png" alt="">
+            </p>
+            <p class="col-sm-3 top5-big">
+                <span ng-class="{active:showIndex2==3}" class="src text-left"></span>
+                <img ng-click="toggle2(3)" class="text-right" src="../images/jianshe.png" alt="">
+            </p>
+        </div>
+        <div class="col-sm-12 btm3  text-right">
+            <a class="col-sm-2  btm3-a" ui-sref="pay3({id:ad.id})">确认支付</a>
+        </div>
+    </div>
+</div>

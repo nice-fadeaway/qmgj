@@ -1,0 +1,75 @@
+<div class="container detail">
+    <div class="row detaout">
+        <div class="col-sm-12 detacnt1">
+            <a ng-repeat="obj in toptxt"  ng-click="checkContent($index)" ng-class="{active:showActive == $index}">{{obj.txt}}</a>
+
+        </div>
+
+        <div class="col-sm-12 detacnt2">
+            <a  title="">筹资中</a>
+            <a  title="">即将结束</a>
+            <a  title="" class="active">已成功</a>
+        </div>
+        <div class="col-sm-12 detacnt3">
+            <a  title="" class="active">最新</a>
+            <a  title="">热门</a>
+            <a  title="">结束时间</a>
+        </div>
+    </div>
+</div>
+
+<div class="container detalist">
+    <div class="row detalistout col-sm-12 text-left">
+
+<!-- 动态添加的内容 -->
+        <div class="col-sm-3 detalistier" ng-repeat="list in detailcnt|filter:myFilterModel" ui-sref="objdetail.objRecom({id:list.id})">
+            <img class="topimg" ng-src="{{list.img}}">
+            <p>
+                <span class="btntop">{{list.name}}</span>
+                <br>
+                <span class="btntop2">{{list.laiyuan}}</span>
+            </p>
+            <p class="btntext1">
+                {{list.txt}}
+            </p>
+            <p>
+                <img src="../images/biaoqian.png" alt="">
+                <span class="btntop3">{{list.name2}}</span>
+            </p>
+            <div class="progresstwo">
+                <p class="prochild" style="width:{{list.pro}}">
+                    
+                </p>
+            </div>
+            <p class="btntext2">
+                <span>{{list.pro}}</span>
+                <span>{{list.money}}</span>
+                <span>{{list.time}}</span>
+            </p>
+            <p class="btntext3">
+                <span>进度</span>
+                <span>支持金额</span>
+                <span>剩余天数</span>
+            </p>
+        </div>
+
+                    
+    </div>
+</div>
+
+<div class="container btnpage">
+    <div class="row btnpageout">
+        <div class="col-sm-12 btnpageier text-center">
+        <a class="active" href="#" title="">1</a>
+        <a href="#" title="">2</a>
+        <a href="#" title="">3</a>
+        <a href="#" title="">4</a>
+        <a href="#" title="">5</a>
+        <a href="#" title="">6</a>
+        <span class="dot">...</span>
+        <a href="#" title="">&gt;</a>
+        <a href="#" title="">尾页</a>
+        </div>
+    </div>
+</div>
+

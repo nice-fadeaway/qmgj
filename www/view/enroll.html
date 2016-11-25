@@ -1,0 +1,64 @@
+
+    <div class="container content">
+  	<div class="row">
+  	<div class="col-sm-12">
+  	<div class="padding">
+
+  		<h2 class="top-txt1">注册</h2>
+  		<form class="clear" action="" name="myForm" ng-model="myForm" novalidate>
+  		<input class="input" type="text" name="phone" ng-model="phone" required  placeholder="请输入你的手机号" ng-pattern='/^(1[^012][0-9]{9})$/'>
+  		<span class="phone" ng-show="myForm.phone.$dirty && myForm.phone.$error.required">
+  			手机号码必须填!
+  		</span>
+  		<span class="white">1</span>
+  		<span class="phone" ng-show="myForm.phone.$dirty  && myForm.phone.$error.pattern">
+  			手机号码填写有误,检查仔细再输入!
+  		</span>
+        
+        <div class="yanzheng">
+        <input class="inputone" type="text" name="pneber" ng-model="pneber" required placeholder="输入验证码">
+        <button class="geticon" ng-click="change()" ng-disabled="vm.kedian">{{vm.data}}</button>
+        </div>
+        <span class="pneshow" ng-show="myForm.pneber.$dirty && myForm.pneber.$error.required">请输入验证码!</span>
+        <span class="whitetwo">1</span>
+        
+  
+
+        <input class="input" type="password" name="mima" ng-model="mima" ng-pattern="/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,22}$/" placeholder="请输入你的密码" required>
+        <span class="mima" ng-show="myForm.mima.$dirty && myForm.mima.$error.required">
+        	请你输入密码!
+        </span>
+        <span class="mima-right" ui-sref="searchps">忘记密码?</span>
+        <span class="mima" ng-show="myForm.mima.$error.pattern">
+        	请输入大于6位的密码!
+        </span>
+  		</form>
+
+  		<p class="go"><a ng-class="{active:myForm.$valid}" href="#" title="">注册</a></p>
+  		<div class="reme">
+      
+        <span class="userbd" ng-click="toggleBd(0)"><span class="radic" ng-show="radicAct.show"  ng-class="{active:showIndex == 0}">&radic;</span></span>
+
+  		  <span class="usertxt">同意《全名创造协议》</span>
+  		</div>
+  		<p class="three">第三方登录</p>
+  		<p class="three-list">
+  			<a href="#" title="" >
+        <img src="../images/登录加注册/qq.png" alt="">
+        </a>
+  			<a href="#" title="" >
+       <img src="../images/登录加注册/weibo.png" alt="">   
+        </a>
+  			<a href="#" title="" >
+       <img src="../images/登录加注册/weixin.png" alt="">   
+        </a>
+  		</p>
+
+  	</div>  	
+
+  		<p class="newuser"><span>新用户?</span>
+  		<a href="#" title="" ui-sref="login">登录</a>
+  		</p>
+  	</div>
+  	</div>
+  	</div> 

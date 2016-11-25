@@ -1,0 +1,21 @@
+<span class="txt1">邮箱地址</span>
+<input class="input1" type="text">
+<p class="margin"></p>
+<form name="myForm" ng-model="myForm" novalidate>
+    <span class="txt6">验证码</span>
+    <input class="input2" type="text" name="yanz" ng-model="yanz" required placeholder="输入验证码">
+    <button ng-click="change()" ng-disabled="vm.kedian" class="button">{{vm.data}}</button>
+</form>
+<p class="big clear">
+    <span ng-show="myForm.yanz.$dirty && myForm.yanz.$error.required" class="show">验证码输入错误,请重新输入!
+    </span>
+    <span class="fff">dads</span>
+</p>
+<button type="button" class="btn btn-primary btn-a" data-toggle="modal" data-target=".bs-example-modal-sm">保存</button>
+<div class="modal fade bs-example-modal-sm tanchu" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm tcout">
+        <div class="modal-content tcinr">
+            保存成功！
+        </div>
+    </div>
+</div>

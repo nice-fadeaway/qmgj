@@ -1,0 +1,137 @@
+<div class="container objta">
+    <div class="row objiner" ng-repeat="page in shows">
+        <p class="col-sm-12 objta-top1 text-center">{{page.name}}</p>
+        <p class="col-sm-12 objta-top2 text-center">{{page.toptext}}</p>
+        <div class="col-sm-8 obj-tleft">
+            <img ui-sref="pay1({id:page.id})" class="tlft-img" ng-src="{{page.img}}" alt="">
+            <p class="textpublicone">
+                <img src="../images/biaoqian.png" alt="">
+                <span class="clmargin">话剧</span>
+                <img class="clver" src="../images/weishi.png" alt="">
+                <span>卫视</span>
+            </p>
+            <p class="tleft-text1">
+                {{page.text}}
+            </p>
+        </div>
+        <div class="col-sm-offset-1 col-sm-3 obj-tright">
+            <p class="otr-text">
+                <span class="textbig">{{page.backingman}}</span>
+                <br>
+                <span class="textmin">&nbsp;支持者</span>
+            </p>
+            <p class="otr-text">
+                <span class="textbig">{{page.backingmoney}}</span>
+                <br>
+                <span class="textmin">&nbsp;支持金额</span>
+                <span class="textone">总金额￥32,000</span>
+            </p>
+            <p class="otr-text">
+                <span class="textbig">{{page.fate}}</span>
+                <br>
+                <span class="textmin">&nbsp;剩余天数</span>
+            </p>
+            <p class="ort-share col-sm-12">
+                <span class="col-sm-7 text-left ort-text1">
+                    <!-- 这是一个传参路由 -->
+            <a ui-sref="pay1({id:page.id})">{{page.zhichi}}</a>
+            </span>
+                <span class="col-sm-5 text-right  ort-text2">
+            <!-- 这里需要做一个分享的路由 -->
+                <a href="#" title="">
+                    <img src="../images/fengxinag.png" alt="">
+                </a>
+                <a href="#" title="">
+                    分享到圈子
+                </a>
+            </span>
+            </p>
+            <p class="ort-btn">
+                该项目必须在2015年12月1日上午10点完成￥32,000,才募集成功开始项目。
+            </p>
+            <p class="hr"></p>
+            <div class="obj-fot">
+                <div class="fot-left col-sm-7 text-center">
+                    <span class="fl-text1">恒源祥戏剧创意</span>
+                    <br>
+                    <a href="#" class="fl-text2" ui-sref="percent.perhome">他的主页</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="fl-text2">联系他</a>
+                </div>
+                <div class="fot-right col-sm-5">
+                    <a href="#" title=""><img src="../images/headpho.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container objta2">
+    <div class="row objiner2">
+        <div class="col-sm-12 obj2-top">
+            <!-- 这里可以使用两种方式:一种是函数 使用ng-click与ng-class 一种是使用多视图  -->
+            <a ui-sref="objdetail.objRecom" ui-sref-active="active">项目介绍</a>
+            <a ui-sref="objdetail.grow" ui-sref-active="active">发展历程</a>
+            <a ui-sref="objdetail.exchang" ui-sref-active="active">圈子交流</a>
+        </div>
+    </div>
+</div>
+<div class="container objta3">
+    <div class="row objiner3 clear" ng-repeat="page in shows">
+
+        <div class="col-sm-8 obj3-left ui-view">
+        
+        </div>
+
+        <div class="col-sm-offset-1 col-sm-3 obj3-right">
+            <div class="border">
+                <div class="line">
+                    <a href="#" title="" class="col-sm-4 text-left">{{page.backer}}</a>
+                    <p class="col-sm-8 col-sm-offset-0 text-right">
+                        <span>{{page.backerman}}</span>
+                        <span class="trone">限5000位</span>
+                    </p>
+                </div>
+                <p class="text1">
+                    感谢你的支持,你将获得:
+                </p>
+                <p class="text2">
+                    1.犹太人在上海手机壁纸一套(共7张);2.毎200人随机抽取1名幸运用户,不满200人也按200 人抽取,获赠《犹太人在上海》演员签名海报一份+纪念画册一本;中奖名单将在话题区公布,奖品最终由项目方发送至得奖者手中(免配送费)。
+                </p>
+                <p class="text3">
+                    <span class="text3-one">预计回报发放时间 : </span>
+                    <span>项目成功结束后5天内</span>
+                </p>
+                <!-- 这是一个支付路由页面 -->
+                <a class="btnr" href="#" title="" ui-sref="pay1({id:page.id})">{{page.backingmoney}}</a>
+            </div>
+            <div class="border">
+                <div class="line">
+                    <a href="#" title="" class="col-sm-4 text-left">{{page.backer}}</a>
+                    <p class="col-sm-8 col-sm-offset-0 text-right">
+                        <span>{{page.backerman}}</span>
+                        <span class="trone">限5000位</span>
+                    </p>
+                </div>
+                <p class="text1">
+                    感谢你的支持,你将获得:
+                </p>
+                <p class="text2">
+                    1.犹太人在上海手机壁纸一套(共7张);2.毎200人随机抽取1名幸运用户,不满200人也按200 人抽取,获赠《犹太人在上海》演员签名海报一份+纪念画册一本;中奖名单将在话题区公布,奖品最终由项目方发送至得奖者手中(免配送费)。
+                </p>
+                <p class="text3">
+                    <span class="text3-one">预计回报发放时间 : </span>
+                    <span>项目成功结束后5天内</span>
+                </p>
+                <!-- 这是一个支付路由页面 -->
+                <a class="btnr" href="#" title="" ui-sref="pay1({id:page.id})">{{page.backingmoney}}</a>
+            </div>
+            <div class="borderone">
+                <span class="serve">关于支持与退款</span>
+                <p class="text">
+                    该项目必须在<span>2015</span>年<span>12</span>月<span>15</span>日上午<span>10</span>点前完成<span>￥32,000</span>才算成功,否则订单将取消。
+                    <br>
+                    <br> 订单取消后,您的支付金额,将从你的储蓄卡或信用卡原路返回。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

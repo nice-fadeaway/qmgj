@@ -1,0 +1,255 @@
+.banner {
+  width: 100%;
+  position: relative;
+  padding: 0px;
+}
+.banner .banner-img {
+  width: 100%;
+  padding: 0px;
+}
+.banner .banner-img img {
+  width: 100%;
+  height: 600px;
+  cursor: pointer;
+  border: none;
+}
+.banner .banner-img .banner-text {
+  position: absolute;
+  top: 40%;
+  width: 45%;
+  left: 25%;
+  text-align: center;
+  color: white;
+}
+.banner .banner-img .banner-text .bntext1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.banner .banner-img .banner-text .bntext2 {
+  font-size: 14px;
+}
+.banner .banner-img .banner-text .bntext3 a {
+  background-color: #ff4200;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: '微软雅黑';
+  font-size: 20px;
+  font-weight: bold;
+}
+.cont {
+  width: 100%;
+  background-color: #f7fafa;
+}
+.cont .contine {
+  width: 90%;
+  margin-left: 5%;
+}
+.cont .contine .content-left .topimg {
+  cursor: pointer;
+  height: 220px;
+}
+.cont .contine .content-left .cltop {
+  margin: 44px 0px;
+}
+.cont .contine .content-left .cltop .hotobj {
+  font-size: 18px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+}
+.cont .contine .content-left .cltop a {
+  font-size: 12px;
+  color: #828587;
+  text-decoration: none;
+}
+.cont .contine .content-left .cltext .cltext1 {
+  font-size: 18px;
+  color: #150b09;
+}
+.cont .contine .content-left .cltext .textpublic {
+  font-size: 12px;
+  color: #828587;
+  margin: 25px 0px;
+}
+.cont .contine .content-left .cltext .textpublicone {
+  font-size: 12px;
+  color: #828587;
+}
+.cont .contine .content-left .cltext .textpublicone .clmargin {
+  display: inline-block;
+  margin-right: 20px;
+}
+.cont .contine .content-left .cltext .textpublicone .clver {
+  vertical-align: top;
+}
+.cont .contine .content-left .cltext .progressone {
+  width: 100%;
+  height: 10px;
+  background-color: #d9d9de;
+  border-radius: 8px;
+  position: relative;
+}
+.cont .contine .content-left .cltext .progressone:after {
+  position: absolute;
+  content: "";
+  height: 10px;
+  background: #ff4200;
+  top: 0px;
+  left: 0px;
+  width: 60%;
+  border-radius: 8px;
+}
+.cont .contine .content-left .cltext .clsq {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cont .contine .content-left .cltext .clsq span {
+  display: inline-block;
+  margin-right: 9px;
+}
+.cont .contine .content-left .cltext .clbot {
+  font-size: 12px;
+}
+.cont .contine .content-left .cltext .clbot span {
+  display: inline-block;
+  margin-right: 20px;
+  color: #828587;
+}
+.cont .content-right {
+  margin-top: 44px;
+}
+.cont .content-right ul {
+  border-left: 1px solid #828587;
+}
+.cont .content-right ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.cont .content-right ul li a {
+  color: #b3b3b3;
+  font-size: 12px;
+  text-decoration: none;
+}
+.cont .content-right ul li a:hover {
+  color: #ff4200;
+}
+.cont .content-right ul li .active {
+  position: relative;
+  color: #ff4200;
+}
+.cont .content-right ul li .active:before {
+  content: "";
+  height: 20px;
+  width: 1px;
+  background-color: #ff4200;
+  position: absolute;
+  left: -40px;
+  top: 0px;
+}
+.btn {
+  width: 100%;
+}
+.btn .btntine {
+  margin-left: 5%;
+}
+.btn .btntine .btn-top {
+  margin: 40px 0px;
+}
+.btn .btntine .btn-top span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #150b09;
+}
+.btn .btntine .btn-top a {
+  border: 1px solid #d1d3d3;
+  color: #c7c8c9;
+  padding: 2px 8px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn .btntine .detalistier {
+  padding: 0px;
+  border: 1px solid #dddde2;
+  box-sizing: border-box;
+  margin-right: 19px;
+  margin-bottom: 40px;
+  margin-left: 2%;
+}
+.btn .btntine .detalistier .topimg {
+  width: 100%;
+  cursor: pointer;
+  height: 230px;
+}
+.btn .btntine .detalistier p {
+  padding-left: 8px;
+}
+.btn .btntine .detalistier p .btntop {
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn .btntine .detalistier p .btntop2 {
+  font-size: 11px;
+  color: #828587;
+}
+.btn .btntine .detalistier p .btntop3 {
+  font-size: 12px;
+  color: #828587;
+}
+.btn .btntine .detalistier .btntext1 {
+  font-size: 11px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #828587;
+  margin: 19px 0px;
+}
+.btn .btntine .detalistier .btntext2 {
+  font-size: 12px;
+  color: #150b09;
+  font-weight: bold;
+}
+.btn .btntine .detalistier .btntext2 span {
+  margin-right: 10px;
+}
+.btn .btntine .detalistier .btntext3 {
+  color: #828587;
+  font-size: 11px;
+}
+.btn .btntine .detalistier .progresstwo {
+  position: relative;
+  width: 90%;
+  margin-left: 8px;
+  background-color: #d9d9de;
+  height: 10px;
+  border-radius: 5px;
+}
+.btn .btntine .detalistier .progresstwo:after {
+  position: absolute;
+  width: 80%;
+  content: "";
+  background-color: #ff4200;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+}
+.fot {
+  margin-bottom: 85px;
+  padding: 0px;
+}
+.fot .fot-contout .fot-content p {
+  padding: 0px;
+  font-size: 18px;
+  color: #150b09;
+  font-weight: bold;
+  margin: 40px 0px;
+}
+.fot .fot-contout .fot-content img {
+  margin-right: 2%;
+  display: inline-block;
+}

@@ -1,0 +1,115 @@
+.top .top-txt {
+  background-color: #fff;
+  padding: 60px;
+  padding-right: 0px;
+}
+.top .top-txt .top-txt1 {
+  font-size: 12px;
+  color: #150b09;
+  vertical-align: middle;
+}
+.top .top-txt .top-txt2 {
+  background-color: #f5f4f3;
+  color: #fff;
+  font-size: 5em;
+  padding: 5px 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.top .top-txt .margin {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.top .top-txt .top-txt3 {
+  color: #150b09;
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.top .top-txt .top-txt4 {
+  padding-left: 19px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.top .top-txt .radu {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  display: inline-block;
+}
+.top .top-txt .active {
+  top: 0px;
+  left: 0px;
+  width: 9px;
+  height: 9px;
+  background-color: #ff4200;
+  border-radius: 4px;
+}
+.top .top-txt .man {
+  color: #6a6a6a;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+}
+.top .top-txt .top-txt5 {
+  font-size: 12px;
+  color: #150b09;
+  display: inline-block;
+  margin-right: 10px;
+}
+.top .top-txt .intr .zf {
+  width: 12px;
+  height: 12px;
+  border: 1px solid gray;
+  display: inline-block;
+  line-height: 12px;
+  cursor: pointer;
+}
+.top .top-txt .intr .active2 {
+  border: 1px solid red;
+  background: url(../images/pro-change.png) no-repeat center;
+}
+.top .top-txt .intr .text {
+  color: #6a6a6a;
+  font-size: 12px;
+  margin-right: 35px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.top .top-txt .intr2 {
+  margin-left: 63px;
+}
+.top .top-txt .intr2 .zf {
+  width: 12px;
+  height: 12px;
+  border: 1px solid gray;
+  display: inline-block;
+  line-height: 12px;
+  cursor: pointer;
+}
+.top .top-txt .intr2 .active2 {
+  border: 1px solid red;
+  background: url(../images/pro-change.png) no-repeat center;
+}
+.top .top-txt .intr2 .text {
+  color: #6a6a6a;
+  font-size: 12px;
+  margin-right: 35px;
+  vertical-align: top;
+  cursor: pointer;
+}
+.top .top-txt .margin3 {
+  margin-top: 35px;
+}
+.top .top-txt .a-btn {
+  display: inline-block;
+  color: #fff;
+  width: 20%;
+  padding: 15px;
+  background-color: #ff4200;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}

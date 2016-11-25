@@ -1,0 +1,25 @@
+<div class="sname-big">
+    <p class="sname-txt1">身份证认证由NCIIC提供接口</p>
+    <p class="margin2"></p>
+    <p class="sname-txt2">
+        <span>姓名</span>
+        <input type="text">
+    </p>
+    <form class="sname-txt3" name="myForm" ng-model="myForm" novalidate>
+        <span>身份证号</span>
+        <input type="text" name="pre" ng-model="pre" class="sname-input" required placeholder="请输入身份证号" ng-pattern='/^[1-9]\d{7}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}$|^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/'>
+    </form>
+    <p class="sname-show clear">
+        <span class="patter" ng-show="myForm.pre.$dirty && myForm.pre.$error.required">&nbsp;<span class="scr">!</span>请输入你的的身份证号码。</span>
+        <span class="patter" ng-show="myForm.pre.$error.pattern">&nbsp;<span class="scr">!</span>请输入正确的16位身份证号码。</span>
+        <span class="fff2">23</span>
+    </p>
+    <button type="button" class="btn btn-primary btn-a" data-toggle="modal" data-target=".bs-example-modal-sm">保存</button>
+    <div class="modal fade bs-example-modal-sm tanchu" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm tcout">
+            <div class="modal-content tcinr">
+                保存成功！
+            </div>
+        </div>
+    </div>
+</div>

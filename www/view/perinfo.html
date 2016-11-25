@@ -1,0 +1,51 @@
+<div class="top col-sm-9">
+    <div class="top-txt">
+        <span class="top-txt1  text-right">修改头像</span>&nbsp;&nbsp;
+        <span class="top-txt2">+
+        <input type="file" id="inputfile">
+        </span>
+        <p class="margin"></p>
+        <span class="top-txt3 text-right">用户昵称</span>
+        <input type="text">
+        <p class="margin"></p>
+        <span class="top-txt4 text-right">性别</span>
+        <span ng-class="{active:showIndex==0}" ng-click="myFn(0)" class="radu"></span>
+        <span ng-click="myFn(0)" class="man">男</span>
+        <span ng-class="{active:showIndex==1}" ng-click="myFn(1)"  class="radu"></span>
+        <span ng-click="myFn(1)" class="man">女</span>
+        <p class="margin"></p>
+        <span class="top-txt5">关注圈子</span>
+
+        <span class="intr" ng-repeat="obj in filmClassName" ng-click="radioBoxFn($index)">
+        	<span ng-class="{active2:myshow[$index]}"  class="zf"></span>
+        	<span  class="text">{{obj}}</span>
+        </span>
+        <p class="margin2"></p>
+        <span class="intr2">
+        <span ng-repeat="obj in filmClassName2" ng-click="radioBoxFn2($index)">      
+        	<span ng-class="{active2:myshow2[$index]}"   class="zf"></span>
+        	<span  class="text">{{obj}}</span>
+        </span>
+
+        </span>
+            <p class="margin2"></p>
+        <span class="intr2"> 
+        <span ng-repeat="obj in filmClassName3" ng-click="radioBoxFn3($index)">
+        	<span ng-class="{active2:myshow3[$index]}"  class="zf"></span>
+        	<span  class="text">音乐剧</span>
+        </span>
+        </span> 
+        <p class="margin3"></p>
+        <!-- <span class="a-btn">保存</span>  -->
+        <button type="button" class="btn btn-primary a-btn" data-toggle="modal" data-target=".bs-example-modal-sm">保存</button>             
+    </div>
+</div>
+
+
+<div class="modal fade bs-example-modal-sm tanchu" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm tcout">
+    <div class="modal-content tcinr">
+      保存成功！
+    </div>
+  </div>
+</div>

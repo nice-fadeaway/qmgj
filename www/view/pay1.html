@@ -1,0 +1,57 @@
+<div class="container pay1" ng-repeat="ac in pay">
+    <div class="row pay1out">
+        <div class="top">
+            <span class="col-sm-3 text-left toptxt">{{ac.topname}}</span>
+            <img src="../images/jindu.png" class="col-sm-5 col-sm-offset-4 text-right">
+        </div>
+        <div class="center col-sm-12">
+            <p class="center-txt1">
+                <span class="span1  col-sm-1 text-right">支持金额:</span>
+                <span class="span2 col-sm-11 text-left">{{ac.money}}</span>
+            </p>
+            <p class="center-txt2 col-sm-12">
+                <span class="txt2-left col-sm-1 text-right">支持回报:</span>
+                <span class="txt2-right  col-sm-11 text-left">  			
+    		<span class="span2">{{ac.text}}<br>
+    		<span class="span3">预计回报发放时间 ：</span>
+                <span class="span4">{{ac.time}}</span>
+                </span>
+                </span>
+                </p>
+                <p class="center-txt3 col-sm-12">
+                    <span class="txt3 col-sm-1 text-right">备注:</span>
+                    <textarea class="col-sm-11 text-left" type="text" placeholder="说点什么吧,可以给项目发起者一点小小的鼓励哦~"></textarea>
+                </p>
+
+                <p class="center-txt4 col-sm-12">
+                	<span class="txt4 col-sm-1 text-right">联系方式:</span>
+                	<span class="con-sm-10 text-right"> 
+                	<input type="text" placeholder="你的称呼">
+                	<span class="phone">{{ac.phone}}</span>
+                	<span class="tishi">(手机号码用于接受回报奖品,客服将根据此号码与您联系,请确认无误！)</span>
+                	</span>
+               
+                </p>
+        </div>
+
+        <div class="btm col-sm-12">
+        	<p class="btm-top col-sm-1 text-right">
+        		风险说明
+        	</p>
+          <p class="col-sm-12  btm-txt">
+          <span class="col-sm-12 text-left">1.众筹成功后,如果出现项目方回报无法发放的情况,您需要直接和项目发起人协商解决退款事宜,平台没有帮您追讨资金的义务。</span>
+          <span class="col-sm-12 text-left">2.支持纯抽奖档位一旦你支付成功将不予退款,项目筹集失效的除外;支持无私奉献档位,项目一旦募集成功将不予退款。</span>
+          <span class="col-sm-12 text-left">3.全名创造只提供平台服务,回报由项目发起人为你提供并负责发货,同时项目发起人有为您开具发票的法定义务。</span></p>
+        </div>
+
+        <div class="btm2 col-sm-12">
+        	<p class="col-sm-1 text-right btm2-top">特别说明</p>
+        	<p class="col-sm-12  btm2-txt">
+        	<span class="col-sm-12 text-left">系统会自动对超出限额的订单进行全额退款,对此造成的不便,深表歉意!</span></p>
+        </div>
+         <div class="col-sm-12 btm3  text-right"> 
+          <a class="col-sm-2  btm3-a" ui-sref="pay2({id:ac.id})">确认支付</a>
+         </div>
+
+    </div>
+</div>

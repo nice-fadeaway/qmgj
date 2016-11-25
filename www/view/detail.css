@@ -1,0 +1,153 @@
+.detail {
+  width: 100%;
+  background: #f8faf9;
+  border-bottom: 1px solid #d9d9de;
+  border-top: 1px solid #d9d9de;
+  margin-bottom: 50px;
+}
+.detail .detaout {
+  margin: 4% 0;
+}
+.detail .detaout .detacnt1 {
+  margin-left: 5%;
+}
+.detail .detaout .detacnt1 a {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-size: 14px;
+  text-decoration: none;
+}
+.detail .detaout .detacnt1 a:nth-child(3) {
+  color: #ff4200;
+}
+.detail .detaout .detacnt1 .active {
+  background-color: #ff4200;
+  padding: 3px 5px;
+  color: #fff;
+  border-radius: 4px;
+}
+.detail .detaout .detacnt2 {
+  margin: 45px 0px;
+  margin-left: 5%;
+}
+.detail .detaout .detacnt2 a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-size: 14px;
+  text-decoration: none;
+}
+.detail .detaout .detacnt2 .active {
+  background-color: #ff4200;
+  padding: 3px 5px;
+  color: #fff;
+  border-radius: 4px;
+}
+.detail .detaout .detacnt3 {
+  margin-left: 5%;
+}
+.detail .detaout .detacnt3 a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #4d4d4d;
+  font-size: 14px;
+  text-decoration: none;
+}
+.detail .detaout .detacnt3 .active {
+  background-color: #ff4200;
+  padding: 3px 5px;
+  color: #fff;
+  border-radius: 4px;
+}
+.detalist {
+  width: 100%;
+}
+.detalist .detalistout {
+  margin-left: 3%;
+}
+.detalist .detalistout .detalistier {
+  width: 30%;
+  padding: 0px;
+  border: 1px solid #dddde2;
+  box-sizing: border-box;
+  margin-right: 19px;
+  margin-bottom: 40px;
+}
+.detalist .detalistout .detalistier .topimg {
+  width: 100%;
+  cursor: pointer;
+  height: 236px;
+}
+.detalist .detalistout .detalistier p {
+  padding-left: 8px;
+}
+.detalist .detalistout .detalistier p .btntop {
+  font-size: 14px;
+  font-weight: bold;
+}
+.detalist .detalistout .detalistier p .btntop2 {
+  font-size: 11px;
+  color: #828587;
+}
+.detalist .detalistout .detalistier p .btntop3 {
+  font-size: 12px;
+  color: #828587;
+}
+.detalist .detalistout .detalistier .btntext1 {
+  font-size: 11px;
+  color: #828587;
+  margin: 19px 0px;
+  margin-left: 8px;
+}
+.detalist .detalistout .detalistier .btntext2 {
+  font-size: 12px;
+  color: #150b09;
+  font-weight: bold;
+}
+.detalist .detalistout .detalistier .btntext2 span {
+  margin-right: 10px;
+}
+.detalist .detalistout .detalistier .btntext3 {
+  color: #828587;
+  font-size: 11px;
+}
+.detalist .detalistout .detalistier .progresstwo {
+  position: relative;
+  width: 90%;
+  margin-left: 8px;
+  background-color: #d9d9de;
+  height: 10px;
+  border-radius: 5px;
+}
+.detalist .detalistout .detalistier .progresstwo:after {
+  position: absolute;
+  width: 80%;
+  content: "";
+  background-color: #ff4200;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+}
+.btnpage .btnpageout .btnpageier {
+  margin: 5% 0;
+}
+.btnpage .btnpageout .btnpageier a {
+  color: #4d4d4d;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 15px;
+  border: 1px solid #e2e2e5;
+  border-radius: 4px;
+}
+.btnpage .btnpageout .btnpageier .active {
+  background: #ff4200;
+  color: #fff;
+}
+.btnpage .btnpageout .btnpageier .dot {
+  width: 30px;
+  display: inline-block;
+}
